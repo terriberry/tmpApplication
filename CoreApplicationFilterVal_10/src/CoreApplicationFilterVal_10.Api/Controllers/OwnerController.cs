@@ -86,7 +86,7 @@ public class OwnerController : ControllerBase
     [SwaggerOperation(description: "When not explicitly specified, a default page size of <strong>50</strong> will enforced.")]
     [IntentManaged(Mode.Fully)]
     public async Task<ActionResult<PagedList<OwnerVM>>> PagedList(
-        [FromServices] AbstractValidator<OwnerFilter> filterValidator,
+  //      [FromServices] AbstractValidator<OwnerFilter> filterValidator,
         [FromServices] IOwnerService service,
         [FromQuery] PagedFilter paging,
         [FromQuery] OwnerFilter filter

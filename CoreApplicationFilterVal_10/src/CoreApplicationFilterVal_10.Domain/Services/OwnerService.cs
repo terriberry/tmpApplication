@@ -18,12 +18,20 @@ namespace CoreApplicationFilterVal_10.Domain.Services;
 
 public class OwnerService : ReadWriteService<int, Owner, OwnerVM, OwnerDTO, OwnerDTO>, IOwnerService
 {
-    public OwnerService(IOwnerReadWriteRepository repository, IMapper mapper, IValidator<PagedFilter> pagedFilterValidator, IValidator<OwnerDTO> createValidator, IValidator<OwnerDTO> updateValidator)
+    private readonly IValidator<OwnerFilter> _filterValidator;
+
+    public OwnerService(IOwnerReadWriteRepository repository, IMapper mapper, IValidator<PagedFilter> pagedFilterValidator, IValidator<OwnerDTO> createValidator, IValidator<OwnerDTO> updateValidator, IValidator<OwnerFilter> filterValidator)
             : base(repository, mapper, pagedFilterValidator, createValidator, updateValidator)
     {
+        _filterValidator = filterValidator;
     }
-    public override async ValueTask<PagedList<OwnerVM>> PagedList(PagedFilter pagedFilter, OwnerFilter ownerFilter) 
+    public override async ValueTask<PagedList<TViewModel>> PagedList(PagedFilter pagedFilter, OwnerFilter ownerFilter) 
     {
-
+        var validationResult = await _filterValidator.ValidateAsync(ownerFilter);
+        if (!validationResult.IsValid)
+        {
+            throw new ValidationException("One or more validation errors", validationResult.Errors);
+        }
+        return await base.PagedList(pagedFilter, ownerFilter);
     }
 }
