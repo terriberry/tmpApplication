@@ -22,5 +22,8 @@ public class OwnerService : ReadWriteService<int, Owner, OwnerVM, OwnerDTO, Owne
             : base(repository, mapper, pagedFilterValidator, createValidator, updateValidator)
     {
     }
+    public override async ValueTask<PagedList<OwnerVM>> PagedList(PagedFilter pagedFilter, OwnerFilter ownerFilter) 
+    {
 
+    }
 }

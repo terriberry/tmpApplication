@@ -54,14 +54,8 @@ public abstract class ReadOnlyService<TKey, TEntity, TViewModel> : IReadOnlyServ
         return entities.Select(m => _mapper.Map<TViewModel>(m));
     }
 
-    public async ValueTask<PagedList<TViewModel>> PagedList(PagedFilter pagedFilter, ListFilter<TEntity> listFilter = null, AbstractValidator<ListFilter<TEntity>> listFilterValidator = null)
+    public async ValueTask<PagedList<TViewModel>> PagedList(PagedFilter pagedFilter, ListFilter<TEntity> listFilter = null)
     {
-        if (listFilterValidator != null && listFilter != null)
-        {
-            var listFilterValidationResult = await listFilterValidator.ValidateAsync(listFilter);
-            if (!listFilterValidationResult.IsValid)
-                throw new ValidationException("One or more validation errors", listFilterValidationResult.Errors);
-        }
         var validationResult = await _pagedFilterValidator.ValidateAsync(pagedFilter);
         if (!validationResult.IsValid)
             throw new ValidationException("One or more validation errors", validationResult.Errors);
