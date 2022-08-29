@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="1888ff76-fbfe-4ba2-9c61-4bd69dde808c" type="Controller" typeId="01a1a13f-ba44-4034-bf6c-37b4379c1779">
+  <name>OwnerController</name>
+  <display>Owner</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>true</isMapped>
+  <mappedClass>
+    <applicationId>8ec8d332-b6aa-4f0b-9f27-3561ece9c97d</applicationId>
+    <metadataId>c63ff456-b12b-4d8d-95c6-90ce851ec014</metadataId>
+    <mappingSettingsId>50c11a88-0ead-439a-a3f5-4d53259c6dd6</mappingSettingsId>
+    <autoSyncTypeReference>true</autoSyncTypeReference>
+    <mappedPath>
+      <target id="f8d0f144-2bce-4743-ac3c-f71edc6fc33c" name="OwnerService" type="element" specialization="Domain Service" />
+    </mappedPath>
+  </mappedClass>
+  <parentFolderId>afe20ec2-0757-441b-b1ea-d0c344f7e1e6</parentFolderId>
+  <packageId>afe20ec2-0757-441b-b1ea-d0c344f7e1e6</packageId>
+  <packageName>API Controllers Package</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="79d0a42f-6774-4bf5-bcb0-48fd8b034df6" name="Controller Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>TD.Modelers.API</definitionPackageName>
+      <definitionPackageId>7d9d6254-20e2-4bf4-87a1-fff801f28a81</definitionPackageId>
+      <properties>
+        <property name="c0903971-1f8d-4ed0-a779-c30d0188ee6a" display="Route" isActive="true" />
+        <property name="138ee8e3-e195-4acf-b43d-9d3f5f60a100" display="Version" value="1" isActive="true" />
+        <property name="708af716-a156-4518-ac25-464cd949e048" display="SwaggerDescription" value="q" isActive="true" />
+      </properties>
+    </stereotype>
+    <stereotype stereotypeDefinitionId="5936ba12-697f-44cc-a595-0450215d946e" name="Expose CRUD Endpoints">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>TD.WebApi.REST.CRUD</definitionPackageName>
+      <definitionPackageId>18b4b448-83b8-48a2-8a75-90f6f1152972</definitionPackageId>
+      <properties>
+        <property name="6220b295-56d0-4b72-af30-e9e20572c774" display="Endpoints" value="[&quot;Get&quot;,&quot;Create&quot;,&quot;Update&quot;,&quot;Delete&quot;,&quot;PagedList&quot;]" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements />
+</class>

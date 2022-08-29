@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="6087d02c-8e8f-4701-823e-eb25ffbc46d2" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>Owners</name>
+  <display>Owners</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>b6ef4af8-1b42-4d9d-b7e0-6bb74e480bbc</parentFolderId>
+  <packageId>b6ef4af8-1b42-4d9d-b7e0-6bb74e480bbc</packageId>
+  <packageName>Domain Services</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

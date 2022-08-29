@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="f8d0f144-2bce-4743-ac3c-f71edc6fc33c" type="Domain Service" typeId="2e735cde-1cbc-4f41-b255-c5d11fe87c01">
+  <name>OwnerService</name>
+  <display>OwnerService</display>
+  <isAbstract>false</isAbstract>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>b6ef4af8-1b42-4d9d-b7e0-6bb74e480bbc</parentFolderId>
+  <packageId>b6ef4af8-1b42-4d9d-b7e0-6bb74e480bbc</packageId>
+  <packageName>Domain Services</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="a0a87759-57e6-489f-8439-f21f72d74bdc" name="Implement CRUD Service">
+      <addedByDefault>false</addedByDefault>
+      <definitionPackageName>TD.Domain.Services.CRUD</definitionPackageName>
+      <definitionPackageId>e003a703-a18d-473f-bee6-0bdc98fe1661</definitionPackageId>
+      <properties>
+        <property name="d22e50de-4d5c-44a3-b1f4-090631b1e5d4" display="Entity" value="6a7d8cf9-ef07-4777-b814-9cb20b5f2339" isActive="true" />
+        <property name="06cc947b-fe7c-4d50-a421-700044420be9" display="ViewModel" value="98924fad-614c-4d3c-8678-46bb4f84eb17" isActive="true" />
+        <property name="cc827e08-1580-4d38-926d-4895fbe931b9" display="CreateModel" value="88bc3eaa-6139-4007-aa48-f73a68e58cc2" isActive="true" />
+        <property name="366f2270-48d3-4d3b-b645-76fcf3692d10" display="UpdateModel" value="88bc3eaa-6139-4007-aa48-f73a68e58cc2" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements />
+</class>

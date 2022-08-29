@@ -1,0 +1,2494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="7339bab6-26bb-4ade-8dad-18ca0f3ef0b1" type="Solution Folder" typeId="0dc2b846-c968-49eb-99b7-8776919313a8">
+  <name>src</name>
+  <display>src</display>
+  <externalReference>6893fdfe-721c-4f6c-af8e-45960978fb31</externalReference>
+  <isAbstract>false</isAbstract>
+  <order>3</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>05886b5e-7c91-4f80-9e01-5963238ab5db</parentFolderId>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="c7ae37ac-3454-4c58-992c-af78fa646642" type="ASP.NET Core Web Application" typeId="FFD54A85-9362-48AC-B646-C93AB9AC63D2">
+      <name>CoreApplicationFilterVal_10.Api</name>
+      <display>CoreApplicationFilterVal_10.Api</display>
+      <externalReference>77f352fb-af7d-4833-8573-1d1a5d142d87</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>7339bab6-26bb-4ade-8dad-18ca0f3ef0b1</parentFolderId>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="5d85edfb-490c-42c2-81ef-c57c0300eb5a" name=".NET Core Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+          <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+          <properties>
+            <property name="4756bd10-23e2-473b-9957-d7083759cd42" display="Target Multiple Frameworks" value="false" isActive="true" />
+            <property name="ef3e7b17-ba1d-4818-82a2-5a8ad3875d40" display="Target Framework" value="16d99e3e-7b91-42f8-ae3b-2686edde94b7" isActive="true" />
+            <property name="5215b600-32fc-4a6d-af72-9eb88a6f30e7" display="Target Frameworks" value="" isActive="false" />
+            <property name="7bfda3d8-b249-488e-b7d4-315d5f2b25f4" display="Runtime Identifiers" isActive="true" />
+            <property name="bb694bf2-6758-492d-ae65-5a8626704786" display="Configurations" isActive="true" />
+            <property name="3710062e-9beb-40e2-8f33-111efecf43a5" display="Root Namespace" isActive="true" />
+            <property name="f2956d24-b6da-427b-8728-c4f44714ce69" display="User Secrets Id" isActive="true" />
+            <property name="42cdb74e-d5fd-4969-94ca-585d0527b862" display="Generate Runtime Configuration Files" isActive="true" />
+            <property name="6111c054-9a40-4f92-9f7c-3a8372af14b8" display="Generate Documentation File" isActive="true" />
+            <property name="f236ad27-a4ab-490a-92d4-b6faf2d1e033" display="Assembly Name" isActive="true" />
+          </properties>
+        </stereotype>
+        <stereotype stereotypeDefinitionId="d9b43864-0370-401b-9e71-b1d286919500" name="C# Project Options">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+          <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+          <properties>
+            <property name="cb56677d-e132-4397-b2ec-3f47e950a111" display="Language Version" value="default" isActive="true" />
+            <property name="5c953a82-78c4-4986-b204-df9fcbea5242" display="Relative Location" value="src/CoreApplicationFilterVal_10.Api" isActive="true" />
+            <property name="415a5406-0517-4c0e-ab60-bc809a23c308" display="Nullable Enabled" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements>
+        <childElement id="218486c5-ecf6-493c-95e0-df208610137e" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+          <name>Common</name>
+          <display>Common</display>
+          <externalReference>d3b90119-37b0-4ddd-be81-ba19755bc06c</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>c7ae37ac-3454-4c58-992c-af78fa646642</parentFolderId>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+              <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+              <properties>
+                <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements>
+            <childElement id="7f2e1404-f0ef-4036-96be-d83bdb0200de" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Responses</name>
+              <display>Responses</display>
+              <externalReference>08864ffc-d3e2-438d-9e07-14024ce32d37</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>218486c5-ecf6-493c-95e0-df208610137e</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements>
+                <childElement id="a080aaec-8701-43c7-b16d-d81332dda35d" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>API.Common.Responses</name>
+                  <display>API.Common.Responses</display>
+                  <externalReference>92567d4c-923d-478d-ab45-217b86993522</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>1</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>7f2e1404-f0ef-4036-96be-d83bdb0200de</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="4a00e593-0146-44e5-bb41-f4824dca9f24" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.WebApi.REST.ErrorResponse</name>
+                  <display>TD.WebApi.REST.ErrorResponse</display>
+                  <externalReference>TD.WebApi.REST</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>7f2e1404-f0ef-4036-96be-d83bdb0200de</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="6e931527-043c-44f1-82fc-64171bafb624" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.WebApi.REST.ForbiddenResponse</name>
+                  <display>TD.WebApi.REST.ForbiddenResponse</display>
+                  <externalReference>TD.WebApi.REST</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>7f2e1404-f0ef-4036-96be-d83bdb0200de</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="ef04ca35-843e-4eb3-9310-1a54d97614b3" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.WebApi.REST.NotFoundResponse</name>
+                  <display>TD.WebApi.REST.NotFoundResponse</display>
+                  <externalReference>TD.WebApi.REST</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>7f2e1404-f0ef-4036-96be-d83bdb0200de</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="ccb268c1-aa2e-4654-a418-8f4cfcbeb47e" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.WebApi.REST.ValidationErrorResponse</name>
+                  <display>TD.WebApi.REST.ValidationErrorResponse</display>
+                  <externalReference>TD.WebApi.REST</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>7f2e1404-f0ef-4036-96be-d83bdb0200de</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+            <childElement id="cc992620-ecf8-4c8c-b561-92c626f40c82" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+              <name>API.Common</name>
+              <display>API.Common</display>
+              <externalReference>cdd69dc6-a94c-4932-9eca-5eae019ce086</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>2</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>218486c5-ecf6-493c-95e0-df208610137e</parentFolderId>
+              <stereotypes />
+              <metadata />
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+        <childElement id="a0f9853b-02b0-43db-a5d4-4e7c4c1123ca" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+          <name>Controllers</name>
+          <display>Controllers</display>
+          <externalReference>fb8a6a7a-8987-4272-9d4f-ccd66cb5a3a0</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>2</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>c7ae37ac-3454-4c58-992c-af78fa646642</parentFolderId>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+              <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+              <properties>
+                <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements>
+            <childElement id="ef85113e-af12-4682-ac02-226074b0c246" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+              <name>API.Controllers</name>
+              <display>API.Controllers</display>
+              <externalReference>2927c421-7b68-4a61-b1c5-009c6dd49acd</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>a0f9853b-02b0-43db-a5d4-4e7c4c1123ca</parentFolderId>
+              <stereotypes />
+              <metadata />
+              <childElements />
+            </childElement>
+            <childElement id="c4654723-2f5c-4c52-8058-e4f5a72156b9" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+              <name>TD.WebApi.REST.Controllers</name>
+              <display>TD.WebApi.REST.Controllers</display>
+              <externalReference>TD.WebApi.REST</externalReference>
+              <isAbstract>false</isAbstract>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>a0f9853b-02b0-43db-a5d4-4e7c4c1123ca</parentFolderId>
+              <stereotypes />
+              <metadata>
+                <entry key="status" value="assigned" />
+              </metadata>
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+        <childElement id="7210fbc3-eb22-453a-987e-cf66fd507731" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+          <name>Middleware</name>
+          <display>Middleware</display>
+          <externalReference>bdd638da-9f92-441b-8b9a-0ee85e69c66a</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>3</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>c7ae37ac-3454-4c58-992c-af78fa646642</parentFolderId>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+              <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+              <properties>
+                <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements>
+            <childElement id="69ed6573-2ece-4f87-96f4-e71c1e7ae62a" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+              <name>API.Middleware</name>
+              <display>API.Middleware</display>
+              <externalReference>aaa30500-a5e5-4753-ab08-97c71c1f0bbb</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>7210fbc3-eb22-453a-987e-cf66fd507731</parentFolderId>
+              <stereotypes />
+              <metadata />
+              <childElements />
+            </childElement>
+            <childElement id="ee80438d-6a87-494b-a139-1290a9aede6e" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+              <name>TD.WebApi.REST.ExceptionMiddleware</name>
+              <display>TD.WebApi.REST.ExceptionMiddleware</display>
+              <externalReference>TD.WebApi.REST</externalReference>
+              <isAbstract>false</isAbstract>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>7210fbc3-eb22-453a-987e-cf66fd507731</parentFolderId>
+              <stereotypes />
+              <metadata>
+                <entry key="status" value="assigned" />
+              </metadata>
+              <childElements />
+            </childElement>
+            <childElement id="774f3338-a460-4098-8d2d-9d09f2f10954" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+              <name>TD.WebApi.REST.LoggingMiddleware</name>
+              <display>TD.WebApi.REST.LoggingMiddleware</display>
+              <externalReference>TD.WebApi.REST</externalReference>
+              <isAbstract>false</isAbstract>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>7210fbc3-eb22-453a-987e-cf66fd507731</parentFolderId>
+              <stereotypes />
+              <metadata>
+                <entry key="status" value="assigned" />
+              </metadata>
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+        <childElement id="a958c836-a4a7-40fa-bda5-a99bb73c53ac" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+          <name>API</name>
+          <display>API</display>
+          <externalReference>116ff078-8404-40df-8dad-f0b878fb7468</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>4</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>c7ae37ac-3454-4c58-992c-af78fa646642</parentFolderId>
+          <stereotypes />
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="7bc7d666-fb31-46d5-97c4-4e02e4e3b41a" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+          <name>TD.WebApi.REST.Program</name>
+          <display>TD.WebApi.REST.Program</display>
+          <externalReference>TD.WebApi.REST</externalReference>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>c7ae37ac-3454-4c58-992c-af78fa646642</parentFolderId>
+          <stereotypes />
+          <metadata>
+            <entry key="status" value="assigned" />
+          </metadata>
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="5e79154b-9137-4401-b8bd-0f6fa885d8c5" type="Class Library (.NET Core)" typeId="52B49DB5-3EA9-4095-B1A7-DF1AC22D7DAE">
+      <name>CoreApplicationFilterVal_10.Application</name>
+      <display>CoreApplicationFilterVal_10.Application</display>
+      <externalReference>81dbf7db-85cd-42ac-ae2f-89c491f443c8</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>2</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>7339bab6-26bb-4ade-8dad-18ca0f3ef0b1</parentFolderId>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="5d85edfb-490c-42c2-81ef-c57c0300eb5a" name=".NET Core Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+          <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+          <properties>
+            <property name="4756bd10-23e2-473b-9957-d7083759cd42" display="Target Multiple Frameworks" value="false" isActive="true" />
+            <property name="ef3e7b17-ba1d-4818-82a2-5a8ad3875d40" display="Target Framework" value="16d99e3e-7b91-42f8-ae3b-2686edde94b7" isActive="true" />
+            <property name="5215b600-32fc-4a6d-af72-9eb88a6f30e7" display="Target Frameworks" value="" isActive="false" />
+            <property name="7bfda3d8-b249-488e-b7d4-315d5f2b25f4" display="Runtime Identifiers" isActive="true" />
+            <property name="bb694bf2-6758-492d-ae65-5a8626704786" display="Configurations" isActive="true" />
+            <property name="3710062e-9beb-40e2-8f33-111efecf43a5" display="Root Namespace" isActive="true" />
+            <property name="f2956d24-b6da-427b-8728-c4f44714ce69" display="User Secrets Id" isActive="true" />
+            <property name="42cdb74e-d5fd-4969-94ca-585d0527b862" display="Generate Runtime Configuration Files" isActive="true" />
+            <property name="6111c054-9a40-4f92-9f7c-3a8372af14b8" display="Generate Documentation File" isActive="true" />
+            <property name="f236ad27-a4ab-490a-92d4-b6faf2d1e033" display="Assembly Name" isActive="true" />
+          </properties>
+        </stereotype>
+        <stereotype stereotypeDefinitionId="d9b43864-0370-401b-9e71-b1d286919500" name="C# Project Options">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+          <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+          <properties>
+            <property name="cb56677d-e132-4397-b2ec-3f47e950a111" display="Language Version" value="default" isActive="true" />
+            <property name="5c953a82-78c4-4986-b204-df9fcbea5242" display="Relative Location" value="src/CoreApplicationFilterVal_10.Application" isActive="true" />
+            <property name="415a5406-0517-4c0e-ab60-bc809a23c308" display="Nullable Enabled" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements>
+        <childElement id="6dd59cce-33f4-491c-8caf-6798a871d79b" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+          <name>Common</name>
+          <display>Common</display>
+          <externalReference>da97bafb-1a1f-45da-8883-6d764b4a9b1d</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>5e79154b-9137-4401-b8bd-0f6fa885d8c5</parentFolderId>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+              <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+              <properties>
+                <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements>
+            <childElement id="e920bd25-ac21-47a9-a4ed-5606f380bccd" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Interfaces</name>
+              <display>Interfaces</display>
+              <externalReference>f727101b-18e2-4cd6-915b-f64c7fe4ad9a</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>6dd59cce-33f4-491c-8caf-6798a871d79b</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements>
+                <childElement id="3e48633c-c4db-4e70-becc-8bc3c7f6f7f2" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>ApplicationInterfaces</name>
+                  <display>ApplicationInterfaces</display>
+                  <externalReference>df621528-58fb-4c29-823f-e9e97864296a</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>1</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>e920bd25-ac21-47a9-a4ed-5606f380bccd</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="27cb728d-83c6-4161-b6c2-ef7b60788d32" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>Intent.EntityFrameworkCore.DbContextInterface</name>
+                  <display>Intent.EntityFrameworkCore.DbContextInterface</display>
+                  <externalReference>Intent.EntityFrameworkCore</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>e920bd25-ac21-47a9-a4ed-5606f380bccd</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="65bf8c0b-ee39-4742-9021-39e06ccb10a6" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Application.Services.ApplicationServiceInterface</name>
+                  <display>TD.Application.Services.ApplicationServiceInterface</display>
+                  <externalReference>TD.Application.Services</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>e920bd25-ac21-47a9-a4ed-5606f380bccd</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+            <childElement id="e8275a64-82de-4785-8760-6e022b8479cf" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Mapping</name>
+              <display>Mapping</display>
+              <externalReference>402e46b5-6228-48df-9f20-bafab6f6ea96</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>2</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>6dd59cce-33f4-491c-8caf-6798a871d79b</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements>
+                <childElement id="455e4ad5-3bb6-44dc-b8ea-a0758750887d" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>Application.Common.Mapping</name>
+                  <display>Application.Common.Mapping</display>
+                  <externalReference>7dcaa2c7-f2f4-4ebb-81a4-7442f89c94a1</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>1</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>e8275a64-82de-4785-8760-6e022b8479cf</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="3e4179d0-1665-493b-8f27-7f8b1d5d3b2d" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.DTOs.AutoMapper.AppMappingProfile</name>
+                  <display>TD.DTOs.AutoMapper.AppMappingProfile</display>
+                  <externalReference>TD.DTOs.AutoMapper</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>e8275a64-82de-4785-8760-6e022b8479cf</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+          </childElements>
+        </childElement>
+        <childElement id="f9a394d0-dd76-4222-b95a-810df8424548" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+          <name>Contracts</name>
+          <display>Contracts</display>
+          <externalReference>9df03b91-c66e-47d3-9559-3bceefae66a5</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>2</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>5e79154b-9137-4401-b8bd-0f6fa885d8c5</parentFolderId>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+              <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+              <properties>
+                <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements>
+            <childElement id="9d23c478-6e82-4ad9-8d5c-068f7fccbc82" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+              <name>Application.Contracts</name>
+              <display>Application.Contracts</display>
+              <externalReference>fd5c80da-112d-4987-916c-a81ec4ed9b60</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>f9a394d0-dd76-4222-b95a-810df8424548</parentFolderId>
+              <stereotypes />
+              <metadata />
+              <childElements />
+            </childElement>
+            <childElement id="771f8bc8-385f-4733-bf07-8f340d9d8863" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+              <name>TD.Application.Services.ServiceContracts</name>
+              <display>TD.Application.Services.ServiceContracts</display>
+              <externalReference>TD.Application.Services</externalReference>
+              <isAbstract>false</isAbstract>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>f9a394d0-dd76-4222-b95a-810df8424548</parentFolderId>
+              <stereotypes />
+              <metadata>
+                <entry key="status" value="assigned" />
+              </metadata>
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+        <childElement id="0e0fb7c5-1666-4caf-9fa3-2cbb8359f63b" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+          <name>Models</name>
+          <display>Models</display>
+          <externalReference>0807d849-a36e-46aa-8621-d386c98a16f2</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>3</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>5e79154b-9137-4401-b8bd-0f6fa885d8c5</parentFolderId>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+              <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+              <properties>
+                <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements>
+            <childElement id="3dfea2ac-ed7e-4fd5-99de-d8ae080ce833" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>DTOs</name>
+              <display>DTOs</display>
+              <externalReference>6cfed5d8-4d1b-45f8-b4ce-0a147a58b2e8</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>0e0fb7c5-1666-4caf-9fa3-2cbb8359f63b</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements>
+                <childElement id="e793501f-5f4a-4a07-9e9b-fb41dca67086" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>Application.DTO</name>
+                  <display>Application.DTO</display>
+                  <externalReference>53362d9c-37ca-4369-b5c6-86e763c356d9</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>1</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>3dfea2ac-ed7e-4fd5-99de-d8ae080ce833</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="62b8acb1-f622-4d9f-bcac-8ca79de38089" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>Application.DTO.Validation</name>
+                  <display>Application.DTO.Validation</display>
+                  <externalReference>3577d49c-aec2-4bef-ba6d-f4d279668cb7</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>2</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>3dfea2ac-ed7e-4fd5-99de-d8ae080ce833</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="c5f48192-e1dc-49d6-ab3f-ac6a27d157de" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Application.Services.Dto</name>
+                  <display>TD.Application.Services.Dto</display>
+                  <externalReference>TD.Application.Services</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>3dfea2ac-ed7e-4fd5-99de-d8ae080ce833</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="239a1848-c910-467c-bc63-7ce0e9018ffc" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Application.Services.Validation.Fluent.ApplicationDtoValidation</name>
+                  <display>TD.Application.Services.Validation.Fluent.ApplicationDtoValidation</display>
+                  <externalReference>TD.Application.Services.Validation.Fluent</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>3dfea2ac-ed7e-4fd5-99de-d8ae080ce833</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+            <childElement id="2e1c7cd8-dedd-4200-900e-6f0dff246291" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+              <name>Application.Models</name>
+              <display>Application.Models</display>
+              <externalReference>bd9f1524-f436-4ecf-a226-8cca63b10b40</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>2</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>0e0fb7c5-1666-4caf-9fa3-2cbb8359f63b</parentFolderId>
+              <stereotypes />
+              <metadata />
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+        <childElement id="8212ac0b-b723-4680-96c2-480b3a960af3" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+          <name>Services</name>
+          <display>Services</display>
+          <externalReference>663bfd71-5966-4a89-bff5-4f455f3defd5</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>4</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>5e79154b-9137-4401-b8bd-0f6fa885d8c5</parentFolderId>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+              <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+              <properties>
+                <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements>
+            <childElement id="c9d85139-6352-4262-a56e-092668bf45df" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+              <name>Application.Services</name>
+              <display>Application.Services</display>
+              <externalReference>e2008858-85b3-44ef-a2d5-f023ee454d93</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>8212ac0b-b723-4680-96c2-480b3a960af3</parentFolderId>
+              <stereotypes />
+              <metadata />
+              <childElements />
+            </childElement>
+            <childElement id="95350914-a26d-45d3-a272-706a35b9c481" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+              <name>TD.Application.Services.Services</name>
+              <display>TD.Application.Services.Services</display>
+              <externalReference>TD.Application.Services</externalReference>
+              <isAbstract>false</isAbstract>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>8212ac0b-b723-4680-96c2-480b3a960af3</parentFolderId>
+              <stereotypes />
+              <metadata>
+                <entry key="status" value="assigned" />
+              </metadata>
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+        <childElement id="bf5cf8f4-86b4-4bbc-938f-1bbc0fb330e2" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+          <name>Application</name>
+          <display>Application</display>
+          <externalReference>516f4c8d-10db-405b-8893-310a17b7a51f</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>5</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>5e79154b-9137-4401-b8bd-0f6fa885d8c5</parentFolderId>
+          <stereotypes />
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="b0bdce97-3fae-46cd-bb1c-43949c9775fc" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+          <name>TD.Application.DI.ApplicationDependencyInjection</name>
+          <display>TD.Application.DI.ApplicationDependencyInjection</display>
+          <externalReference>TD.Application.DI</externalReference>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>5e79154b-9137-4401-b8bd-0f6fa885d8c5</parentFolderId>
+          <stereotypes />
+          <metadata>
+            <entry key="status" value="assigned" />
+          </metadata>
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="8bc03e54-cc18-4dd4-9e5b-c1f3729ea232" type="Class Library (.NET Core)" typeId="52B49DB5-3EA9-4095-B1A7-DF1AC22D7DAE">
+      <name>CoreApplicationFilterVal_10.Domain</name>
+      <display>CoreApplicationFilterVal_10.Domain</display>
+      <externalReference>2e7e2d2c-6b99-4ddc-8dc4-e376360bc0cc</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>3</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>7339bab6-26bb-4ade-8dad-18ca0f3ef0b1</parentFolderId>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="5d85edfb-490c-42c2-81ef-c57c0300eb5a" name=".NET Core Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+          <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+          <properties>
+            <property name="4756bd10-23e2-473b-9957-d7083759cd42" display="Target Multiple Frameworks" value="false" isActive="true" />
+            <property name="ef3e7b17-ba1d-4818-82a2-5a8ad3875d40" display="Target Framework" value="16d99e3e-7b91-42f8-ae3b-2686edde94b7" isActive="true" />
+            <property name="5215b600-32fc-4a6d-af72-9eb88a6f30e7" display="Target Frameworks" value="" isActive="false" />
+            <property name="7bfda3d8-b249-488e-b7d4-315d5f2b25f4" display="Runtime Identifiers" isActive="true" />
+            <property name="bb694bf2-6758-492d-ae65-5a8626704786" display="Configurations" isActive="true" />
+            <property name="3710062e-9beb-40e2-8f33-111efecf43a5" display="Root Namespace" isActive="true" />
+            <property name="f2956d24-b6da-427b-8728-c4f44714ce69" display="User Secrets Id" isActive="true" />
+            <property name="42cdb74e-d5fd-4969-94ca-585d0527b862" display="Generate Runtime Configuration Files" isActive="true" />
+            <property name="6111c054-9a40-4f92-9f7c-3a8372af14b8" display="Generate Documentation File" isActive="true" />
+            <property name="f236ad27-a4ab-490a-92d4-b6faf2d1e033" display="Assembly Name" isActive="true" />
+          </properties>
+        </stereotype>
+        <stereotype stereotypeDefinitionId="d9b43864-0370-401b-9e71-b1d286919500" name="C# Project Options">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+          <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+          <properties>
+            <property name="cb56677d-e132-4397-b2ec-3f47e950a111" display="Language Version" value="default" isActive="true" />
+            <property name="5c953a82-78c4-4986-b204-df9fcbea5242" display="Relative Location" value="src/CoreApplicationFilterVal_10.Domain" isActive="true" />
+            <property name="415a5406-0517-4c0e-ab60-bc809a23c308" display="Nullable Enabled" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements>
+        <childElement id="dd689ad7-dc7b-43d1-b94c-c16e6bf84a60" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+          <name>Common</name>
+          <display>Common</display>
+          <externalReference>69c47d3a-b6c9-468d-b0fc-1ac447f09a80</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>8bc03e54-cc18-4dd4-9e5b-c1f3729ea232</parentFolderId>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+              <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+              <properties>
+                <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements>
+            <childElement id="6e05b783-a9da-47c7-8996-a32b6a61570d" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Contracts</name>
+              <display>Contracts</display>
+              <externalReference>ca97d14c-0d09-402a-a949-c6fe9d90f5af</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>dd689ad7-dc7b-43d1-b94c-c16e6bf84a60</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements>
+                <childElement id="d19bc85c-57c6-4efa-a3b5-19325abdfcbb" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>Domain.EntityInterface</name>
+                  <display>Domain.EntityInterface</display>
+                  <externalReference>aafeb881-a15c-42eb-bf71-ec2b338d09ae</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>1</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>6e05b783-a9da-47c7-8996-a32b6a61570d</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="b37f5e6d-d558-45b4-acaf-49215d575945" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>RepositoryInterface</name>
+                  <display>RepositoryInterface</display>
+                  <externalReference>b6cf63e1-98e8-4a2f-976b-ceed0bd651e5</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>2</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>6e05b783-a9da-47c7-8996-a32b6a61570d</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="8ba617f1-d03d-40eb-99c7-62b75a78d828" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Common.IService</name>
+                  <display>TD.Domain.Common.IService</display>
+                  <externalReference>TD.Domain.Common</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>6e05b783-a9da-47c7-8996-a32b6a61570d</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="d802117f-5592-47a5-86a8-f79a07cdd80e" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Contracts.Repositories.ReadOnlyRepositoryInterface</name>
+                  <display>TD.Domain.Contracts.Repositories.ReadOnlyRepositoryInterface</display>
+                  <externalReference>TD.Domain.Contracts.Repositories</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>6e05b783-a9da-47c7-8996-a32b6a61570d</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="19b46427-0cb8-488f-b9e7-c1453313c18d" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Contracts.Repositories.ReadWriteRepositoryInterface</name>
+                  <display>TD.Domain.Contracts.Repositories.ReadWriteRepositoryInterface</display>
+                  <externalReference>TD.Domain.Contracts.Repositories</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>6e05b783-a9da-47c7-8996-a32b6a61570d</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="6759b3d2-98d1-4907-b7c8-90e798f8fafd" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Contracts.Repositories.RepositoryInterface</name>
+                  <display>TD.Domain.Contracts.Repositories.RepositoryInterface</display>
+                  <externalReference>TD.Domain.Contracts.Repositories</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>6e05b783-a9da-47c7-8996-a32b6a61570d</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="0655fb70-a693-4ad2-af2c-92e8bce40a1e" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Entities.CodeEntityInterface</name>
+                  <display>TD.Domain.Entities.CodeEntityInterface</display>
+                  <externalReference>TD.Domain.Entities</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>6e05b783-a9da-47c7-8996-a32b6a61570d</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="6890d697-bdf3-48b7-9e98-ca20e1d9ba89" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Entities.EntityInterface</name>
+                  <display>TD.Domain.Entities.EntityInterface</display>
+                  <externalReference>TD.Domain.Entities</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>6e05b783-a9da-47c7-8996-a32b6a61570d</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="abf8852a-e847-4274-8606-4102263ad7b8" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Entities.IdEntityInterface</name>
+                  <display>TD.Domain.Entities.IdEntityInterface</display>
+                  <externalReference>TD.Domain.Entities</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>6e05b783-a9da-47c7-8996-a32b6a61570d</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="457c64b2-ecf4-4cad-8a48-8f834e42c5df" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Services.DomainServiceInterface</name>
+                  <display>TD.Domain.Services.DomainServiceInterface</display>
+                  <externalReference>TD.Domain.Services</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>6e05b783-a9da-47c7-8996-a32b6a61570d</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+            <childElement id="357c26ff-349a-4de8-9429-bea79e3d4c2b" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Events</name>
+              <display>Events</display>
+              <externalReference>6e5753e3-d9d7-408d-8ff7-2397ebf18186</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>2</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>dd689ad7-dc7b-43d1-b94c-c16e6bf84a60</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements />
+            </childElement>
+            <childElement id="6fd72da5-83cf-4821-94bc-92d2d73544c8" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Exceptions</name>
+              <display>Exceptions</display>
+              <externalReference>75bdebbc-48e4-4a14-9cb5-aa315dc99792</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>3</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>dd689ad7-dc7b-43d1-b94c-c16e6bf84a60</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements>
+                <childElement id="497171b2-f605-4d6b-98cb-68d6825b2b7e" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Common.EnvVarNotFoundException</name>
+                  <display>TD.Domain.Common.EnvVarNotFoundException</display>
+                  <externalReference>TD.Domain.Common</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>6fd72da5-83cf-4821-94bc-92d2d73544c8</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="52ac04a8-9b42-4354-ba8e-5f148de030ec" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Common.NotFoundException</name>
+                  <display>TD.Domain.Common.NotFoundException</display>
+                  <externalReference>TD.Domain.Common</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>6fd72da5-83cf-4821-94bc-92d2d73544c8</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="6133edae-1b63-45be-9262-525d61782d18" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Common.ValidationException</name>
+                  <display>TD.Domain.Common.ValidationException</display>
+                  <externalReference>TD.Domain.Common</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>6fd72da5-83cf-4821-94bc-92d2d73544c8</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+            <childElement id="b723a9cc-90f5-46dc-955c-fd4cdc5c5e6c" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Filters</name>
+              <display>Filters</display>
+              <externalReference>87bf8b68-6a91-443d-a575-ebcb1cad8f03</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>4</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>dd689ad7-dc7b-43d1-b94c-c16e6bf84a60</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements>
+                <childElement id="2e40d5c1-3577-4611-9e8a-eec8cc8a156f" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+                  <name>Attributes</name>
+                  <display>Attributes</display>
+                  <externalReference>27617b5c-d47e-4727-86b9-5171e8f0d770</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>1</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>b723a9cc-90f5-46dc-955c-fd4cdc5c5e6c</parentFolderId>
+                  <stereotypes>
+                    <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                      <addedByDefault>true</addedByDefault>
+                      <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                      <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                      <properties>
+                        <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                      </properties>
+                    </stereotype>
+                  </stereotypes>
+                  <metadata />
+                  <childElements>
+                    <childElement id="fe996ec5-1c88-4818-923d-62e31d2334d5" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                      <name>Domain.Common.Filters.Attributes</name>
+                      <display>Domain.Common.Filters.Attributes</display>
+                      <externalReference>5590c5e8-f09b-4f83-a7b8-f614bffbc359</externalReference>
+                      <isAbstract>false</isAbstract>
+                      <order>1</order>
+                      <genericTypes />
+                      <isMapped>false</isMapped>
+                      <parentFolderId>2e40d5c1-3577-4611-9e8a-eec8cc8a156f</parentFolderId>
+                      <stereotypes />
+                      <metadata />
+                      <childElements />
+                    </childElement>
+                    <childElement id="907c3c3a-0e71-4ab2-a544-a33d1a2edc37" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                      <name>TD.Domain.Entities.Filters.ContainsFilter</name>
+                      <display>TD.Domain.Entities.Filters.ContainsFilter</display>
+                      <externalReference>TD.Domain.Entities.Filters</externalReference>
+                      <isAbstract>false</isAbstract>
+                      <genericTypes />
+                      <isMapped>false</isMapped>
+                      <parentFolderId>2e40d5c1-3577-4611-9e8a-eec8cc8a156f</parentFolderId>
+                      <stereotypes />
+                      <metadata>
+                        <entry key="status" value="assigned" />
+                      </metadata>
+                      <childElements />
+                    </childElement>
+                    <childElement id="e7436cd4-9e28-4722-80c3-0f4e556bddd8" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                      <name>TD.Domain.Entities.Filters.EqualsFilter</name>
+                      <display>TD.Domain.Entities.Filters.EqualsFilter</display>
+                      <externalReference>TD.Domain.Entities.Filters</externalReference>
+                      <isAbstract>false</isAbstract>
+                      <genericTypes />
+                      <isMapped>false</isMapped>
+                      <parentFolderId>2e40d5c1-3577-4611-9e8a-eec8cc8a156f</parentFolderId>
+                      <stereotypes />
+                      <metadata>
+                        <entry key="status" value="assigned" />
+                      </metadata>
+                      <childElements />
+                    </childElement>
+                    <childElement id="2cee63e1-9894-4ed7-9c9c-6c6b7bcfe6c1" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                      <name>TD.Domain.Entities.Filters.GreaterThanEqualsFilter</name>
+                      <display>TD.Domain.Entities.Filters.GreaterThanEqualsFilter</display>
+                      <externalReference>TD.Domain.Entities.Filters</externalReference>
+                      <isAbstract>false</isAbstract>
+                      <genericTypes />
+                      <isMapped>false</isMapped>
+                      <parentFolderId>2e40d5c1-3577-4611-9e8a-eec8cc8a156f</parentFolderId>
+                      <stereotypes />
+                      <metadata>
+                        <entry key="status" value="assigned" />
+                      </metadata>
+                      <childElements />
+                    </childElement>
+                    <childElement id="13a4f5de-4e41-470e-8cef-d42332f979f5" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                      <name>TD.Domain.Entities.Filters.GreaterThanFilter</name>
+                      <display>TD.Domain.Entities.Filters.GreaterThanFilter</display>
+                      <externalReference>TD.Domain.Entities.Filters</externalReference>
+                      <isAbstract>false</isAbstract>
+                      <genericTypes />
+                      <isMapped>false</isMapped>
+                      <parentFolderId>2e40d5c1-3577-4611-9e8a-eec8cc8a156f</parentFolderId>
+                      <stereotypes />
+                      <metadata>
+                        <entry key="status" value="assigned" />
+                      </metadata>
+                      <childElements />
+                    </childElement>
+                    <childElement id="314e85af-2dca-4794-8a81-651afc32c23a" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                      <name>TD.Domain.Entities.Filters.InFilter</name>
+                      <display>TD.Domain.Entities.Filters.InFilter</display>
+                      <externalReference>TD.Domain.Entities.Filters</externalReference>
+                      <isAbstract>false</isAbstract>
+                      <genericTypes />
+                      <isMapped>false</isMapped>
+                      <parentFolderId>2e40d5c1-3577-4611-9e8a-eec8cc8a156f</parentFolderId>
+                      <stereotypes />
+                      <metadata>
+                        <entry key="status" value="assigned" />
+                      </metadata>
+                      <childElements />
+                    </childElement>
+                    <childElement id="1632c510-fdda-4d06-927f-37a4d4430355" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                      <name>TD.Domain.Entities.Filters.LessThanEqualsFilter</name>
+                      <display>TD.Domain.Entities.Filters.LessThanEqualsFilter</display>
+                      <externalReference>TD.Domain.Entities.Filters</externalReference>
+                      <isAbstract>false</isAbstract>
+                      <genericTypes />
+                      <isMapped>false</isMapped>
+                      <parentFolderId>2e40d5c1-3577-4611-9e8a-eec8cc8a156f</parentFolderId>
+                      <stereotypes />
+                      <metadata>
+                        <entry key="status" value="assigned" />
+                      </metadata>
+                      <childElements />
+                    </childElement>
+                    <childElement id="a556505c-ee46-440b-b554-19dfb76ad342" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                      <name>TD.Domain.Entities.Filters.LessThanFilter</name>
+                      <display>TD.Domain.Entities.Filters.LessThanFilter</display>
+                      <externalReference>TD.Domain.Entities.Filters</externalReference>
+                      <isAbstract>false</isAbstract>
+                      <genericTypes />
+                      <isMapped>false</isMapped>
+                      <parentFolderId>2e40d5c1-3577-4611-9e8a-eec8cc8a156f</parentFolderId>
+                      <stereotypes />
+                      <metadata>
+                        <entry key="status" value="assigned" />
+                      </metadata>
+                      <childElements />
+                    </childElement>
+                    <childElement id="e65135e8-a622-4b02-bf77-bc60a46f7cf7" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                      <name>TD.Domain.Entities.Filters.SearchFilter</name>
+                      <display>TD.Domain.Entities.Filters.SearchFilter</display>
+                      <externalReference>TD.Domain.Entities.Filters</externalReference>
+                      <isAbstract>false</isAbstract>
+                      <genericTypes />
+                      <isMapped>false</isMapped>
+                      <parentFolderId>2e40d5c1-3577-4611-9e8a-eec8cc8a156f</parentFolderId>
+                      <stereotypes />
+                      <metadata>
+                        <entry key="status" value="assigned" />
+                      </metadata>
+                      <childElements />
+                    </childElement>
+                  </childElements>
+                </childElement>
+                <childElement id="f2951bb0-24ae-4b62-a9b3-d89995b1002e" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>Domain.Common.Filters</name>
+                  <display>Domain.Common.Filters</display>
+                  <externalReference>475c624b-a324-4d3c-944f-e5b977a4faaf</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>2</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>b723a9cc-90f5-46dc-955c-fd4cdc5c5e6c</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="ab812051-318a-40d6-be1d-39fa4d069d93" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Entities.Filters.FilterAttribute</name>
+                  <display>TD.Domain.Entities.Filters.FilterAttribute</display>
+                  <externalReference>TD.Domain.Entities.Filters</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>b723a9cc-90f5-46dc-955c-fd4cdc5c5e6c</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="50100386-cf95-4961-80cc-b70b51bb8e2a" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Entities.Filters.ListFilter</name>
+                  <display>TD.Domain.Entities.Filters.ListFilter</display>
+                  <externalReference>TD.Domain.Entities.Filters</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>b723a9cc-90f5-46dc-955c-fd4cdc5c5e6c</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+            <childElement id="4bfdd032-3816-407f-aed3-0db9f96f471b" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Mapping</name>
+              <display>Mapping</display>
+              <externalReference>3807bf1d-bcc7-4f8a-97e7-f143118517ad</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>5</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>dd689ad7-dc7b-43d1-b94c-c16e6bf84a60</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements>
+                <childElement id="01b618ab-b68a-4789-9475-1918567a145f" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>Domain.Common.Mapping</name>
+                  <display>Domain.Common.Mapping</display>
+                  <externalReference>abe0ab37-aaf2-41e1-bb87-95f653fc616b</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>1</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>4bfdd032-3816-407f-aed3-0db9f96f471b</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="1d3d35c3-c1ff-4e6e-96cf-b3624e66180c" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.DTOs.AutoMapper.IMapFrom</name>
+                  <display>TD.DTOs.AutoMapper.IMapFrom</display>
+                  <externalReference>TD.DTOs.AutoMapper</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>4bfdd032-3816-407f-aed3-0db9f96f471b</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="a0b3894f-d643-4064-83e6-0e04bfe7441e" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.DTOs.AutoMapper.IMapTo</name>
+                  <display>TD.DTOs.AutoMapper.IMapTo</display>
+                  <externalReference>TD.DTOs.AutoMapper</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>4bfdd032-3816-407f-aed3-0db9f96f471b</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="72af976e-d9cf-4cc4-9739-a99fd292eb11" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.DTOs.AutoMapper.MappingProfile</name>
+                  <display>TD.DTOs.AutoMapper.MappingProfile</display>
+                  <externalReference>TD.DTOs.AutoMapper</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>4bfdd032-3816-407f-aed3-0db9f96f471b</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+            <childElement id="4e064a62-31ce-4a10-a69c-7f73c76e5a5d" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Paging</name>
+              <display>Paging</display>
+              <externalReference>03808b9f-ab7f-412a-aae3-b0db96b0ee4c</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>6</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>dd689ad7-dc7b-43d1-b94c-c16e6bf84a60</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements>
+                <childElement id="95aab79a-69ba-4314-953e-db80dbba14aa" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Common.PagedFilter</name>
+                  <display>TD.Domain.Common.PagedFilter</display>
+                  <externalReference>TD.Domain.Common</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>4e064a62-31ce-4a10-a69c-7f73c76e5a5d</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="16a05e32-b7e5-47c9-a966-fd861cefda94" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Common.PagedList</name>
+                  <display>TD.Domain.Common.PagedList</display>
+                  <externalReference>TD.Domain.Common</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>4e064a62-31ce-4a10-a69c-7f73c76e5a5d</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="c50a7e3a-520d-4a86-aa18-2033c2a942ea" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Services.Validation.Fluent.PagedFilterValidator</name>
+                  <display>TD.Services.Validation.Fluent.PagedFilterValidator</display>
+                  <externalReference>TD.Services.Validation.Fluent</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>4e064a62-31ce-4a10-a69c-7f73c76e5a5d</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+            <childElement id="aba9ebe8-d838-4df8-8697-6c947d5991fb" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Services</name>
+              <display>Services</display>
+              <externalReference>cce7c3f1-5fe0-458e-9f45-7b0f4280610d</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>7</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>dd689ad7-dc7b-43d1-b94c-c16e6bf84a60</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements>
+                <childElement id="8e47222e-e894-4c74-a631-11f55f0ce0d6" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>Domain.Common.Services</name>
+                  <display>Domain.Common.Services</display>
+                  <externalReference>df4520e1-04ae-40eb-9fd9-e1f657ee5257</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>1</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>aba9ebe8-d838-4df8-8697-6c947d5991fb</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="8cb25a8a-586b-4248-a28b-355ab7fadd5a" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Services.CRUD.ReadOnlyService</name>
+                  <display>TD.Domain.Services.CRUD.ReadOnlyService</display>
+                  <externalReference>TD.Domain.Services.CRUD</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>aba9ebe8-d838-4df8-8697-6c947d5991fb</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="302b7d79-493a-4aac-ae78-0ee11239ec04" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Services.CRUD.ReadWriteService</name>
+                  <display>TD.Domain.Services.CRUD.ReadWriteService</display>
+                  <externalReference>TD.Domain.Services.CRUD</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>aba9ebe8-d838-4df8-8697-6c947d5991fb</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+            <childElement id="ae390a5f-b0b7-4421-8c3c-a355af0dff04" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Validation</name>
+              <display>Validation</display>
+              <externalReference>e7ac6b88-0c7b-4859-805c-cdf9732d14e1</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>8</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>dd689ad7-dc7b-43d1-b94c-c16e6bf84a60</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements>
+                <childElement id="5202df31-8c95-425c-8c0d-89a7006cb171" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Common.ValidationError</name>
+                  <display>TD.Domain.Common.ValidationError</display>
+                  <externalReference>TD.Domain.Common</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>ae390a5f-b0b7-4421-8c3c-a355af0dff04</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="06494fa1-a26a-4166-bcf7-2cd1403c3516" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Common.ValidationErrorType</name>
+                  <display>TD.Domain.Common.ValidationErrorType</display>
+                  <externalReference>TD.Domain.Common</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>ae390a5f-b0b7-4421-8c3c-a355af0dff04</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="77d7075a-81db-4fdd-842d-094905bc3d33" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Common.ValidationOperationType</name>
+                  <display>TD.Domain.Common.ValidationOperationType</display>
+                  <externalReference>TD.Domain.Common</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>ae390a5f-b0b7-4421-8c3c-a355af0dff04</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+          </childElements>
+        </childElement>
+        <childElement id="2d623afc-0f83-43fe-bec7-f4d43f7caddd" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+          <name>Configuration</name>
+          <display>Configuration</display>
+          <externalReference>2945eb2e-8e8c-408a-8065-13f5c9fbd508</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>2</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>8bc03e54-cc18-4dd4-9e5b-c1f3729ea232</parentFolderId>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+              <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+              <properties>
+                <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="6d00a42c-8be4-499a-9fa5-dfab01426ac8" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+          <name>Contracts</name>
+          <display>Contracts</display>
+          <externalReference>d4d445f7-861b-4d5c-9da6-259ce68ea755</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>3</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>8bc03e54-cc18-4dd4-9e5b-c1f3729ea232</parentFolderId>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+              <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+              <properties>
+                <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements>
+            <childElement id="189b5230-abd6-4a80-8428-9d30a687c7aa" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Gateways</name>
+              <display>Gateways</display>
+              <externalReference>0701a061-d9b6-4ef6-80ab-fb6aadefd67a</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>6d00a42c-8be4-499a-9fa5-dfab01426ac8</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements />
+            </childElement>
+            <childElement id="9035509b-6cdd-4bd1-a75b-3bc801847b83" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Repositories</name>
+              <display>Repositories</display>
+              <externalReference>9e663449-f724-4728-8259-0391b780f977</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>2</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>6d00a42c-8be4-499a-9fa5-dfab01426ac8</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements>
+                <childElement id="b6fad0b2-9389-4542-8773-24c6221fb9f9" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>EntityRepositoryInterfaces</name>
+                  <display>EntityRepositoryInterfaces</display>
+                  <externalReference>fd210745-f140-433b-955a-06087e3c913a</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>1</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>9035509b-6cdd-4bd1-a75b-3bc801847b83</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="0848d791-9035-4492-8bcc-c152cd6dde4c" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Contracts.Repositories.EntityReadOnlyRepositoryInterfaces</name>
+                  <display>TD.Domain.Contracts.Repositories.EntityReadOnlyRepositoryInterfaces</display>
+                  <externalReference>TD.Domain.Contracts.Repositories</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>9035509b-6cdd-4bd1-a75b-3bc801847b83</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="adec47dd-64d2-4f2c-9661-9fda81df88ec" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Contracts.Repositories.EntityReadWriteRepositoryInterfaces</name>
+                  <display>TD.Domain.Contracts.Repositories.EntityReadWriteRepositoryInterfaces</display>
+                  <externalReference>TD.Domain.Contracts.Repositories</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>9035509b-6cdd-4bd1-a75b-3bc801847b83</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+            <childElement id="d6470b0a-b599-4952-a650-20a5fc285f4b" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Services</name>
+              <display>Services</display>
+              <externalReference>500f43db-4d4e-45a8-b1a6-afaaa13174c7</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>3</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>6d00a42c-8be4-499a-9fa5-dfab01426ac8</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements>
+                <childElement id="1e229171-ef6f-4711-b2b4-5eef3eee29ad" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>Domain.Contracts.Services</name>
+                  <display>Domain.Contracts.Services</display>
+                  <externalReference>b59d33e1-4384-404d-8458-af7689769a54</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>1</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>d6470b0a-b599-4952-a650-20a5fc285f4b</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="ca15e274-5122-48b8-9cd4-5e0408ce9f57" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Services.ServiceContracts</name>
+                  <display>TD.Domain.Services.ServiceContracts</display>
+                  <externalReference>TD.Domain.Services</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>d6470b0a-b599-4952-a650-20a5fc285f4b</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="e362e48d-21a0-41fc-be89-6d12f3efe716" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Services.CRUD.ReadOnlyServiceContract</name>
+                  <display>TD.Domain.Services.CRUD.ReadOnlyServiceContract</display>
+                  <externalReference>TD.Domain.Services.CRUD</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>d6470b0a-b599-4952-a650-20a5fc285f4b</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="e1e32ed6-ca4e-40b0-8fd1-89c2285f4ea4" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Services.CRUD.ReadWriteServiceContract</name>
+                  <display>TD.Domain.Services.CRUD.ReadWriteServiceContract</display>
+                  <externalReference>TD.Domain.Services.CRUD</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>d6470b0a-b599-4952-a650-20a5fc285f4b</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+            <childElement id="e9dbec40-aad6-4d45-bd9f-a66340b7e77d" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Settings</name>
+              <display>Settings</display>
+              <externalReference>e9fb4b21-84c0-4044-b3f7-ad493001f47b</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>4</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>6d00a42c-8be4-499a-9fa5-dfab01426ac8</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+        <childElement id="7213fa90-9729-4d93-b541-03c10710b046" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+          <name>Events</name>
+          <display>Events</display>
+          <externalReference>3cc43c17-5bb2-4142-ba19-c425de64f68e</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>4</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>8bc03e54-cc18-4dd4-9e5b-c1f3729ea232</parentFolderId>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+              <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+              <properties>
+                <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="857dd775-0ce0-4ef3-b5fb-32f8372f4504" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+          <name>Models</name>
+          <display>Models</display>
+          <externalReference>5ecc90cb-2eeb-480f-8e27-7d4a234d465b</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>5</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>8bc03e54-cc18-4dd4-9e5b-c1f3729ea232</parentFolderId>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+              <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+              <properties>
+                <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements>
+            <childElement id="84c1956a-89a0-45ae-93d5-56c025a53ea3" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>DTOs</name>
+              <display>DTOs</display>
+              <externalReference>91288ad6-5b59-499a-a9b0-b54cf9c8cb51</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>857dd775-0ce0-4ef3-b5fb-32f8372f4504</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements />
+            </childElement>
+            <childElement id="0b46f7c7-087a-4a2c-9feb-4af96666ff3d" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Entities</name>
+              <display>Entities</display>
+              <externalReference>f72abd99-b58a-4be8-9782-14f33683f51d</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>2</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>857dd775-0ce0-4ef3-b5fb-32f8372f4504</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements>
+                <childElement id="f32a9db6-9c43-4580-a9b7-1454a2f630fe" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>Domain.DTO</name>
+                  <display>Domain.DTO</display>
+                  <externalReference>8a3e5f5c-ced5-427f-8a4c-4918fe49c25b</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>1</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>0b46f7c7-087a-4a2c-9feb-4af96666ff3d</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="8e83ab29-2fa0-4328-8043-dca91bd7c588" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>Domain.DTO.Validation</name>
+                  <display>Domain.DTO.Validation</display>
+                  <externalReference>aa21d497-2fa6-4e6f-bfc2-84c56211b321</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>2</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>0b46f7c7-087a-4a2c-9feb-4af96666ff3d</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="b91654d7-0e79-4659-86e5-6ca628b96196" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>Domain.Entity</name>
+                  <display>Domain.Entity</display>
+                  <externalReference>0925a9a6-151a-46bb-94ab-680df962fba9</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>3</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>0b46f7c7-087a-4a2c-9feb-4af96666ff3d</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="578ca6d2-413a-4bcf-81e5-7751c8c85e1b" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Entities.Entity</name>
+                  <display>TD.Domain.Entities.Entity</display>
+                  <externalReference>TD.Domain.Entities</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>0b46f7c7-087a-4a2c-9feb-4af96666ff3d</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="0b2084dd-f924-45ce-a1bd-b4aab91c875c" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Entities.Filters.EntityFilter</name>
+                  <display>TD.Domain.Entities.Filters.EntityFilter</display>
+                  <externalReference>TD.Domain.Entities.Filters</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>0b46f7c7-087a-4a2c-9feb-4af96666ff3d</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="26ba1e19-d7da-4637-a25a-53430ad7c0e5" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Services.Dto</name>
+                  <display>TD.Domain.Services.Dto</display>
+                  <externalReference>TD.Domain.Services</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>0b46f7c7-087a-4a2c-9feb-4af96666ff3d</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="ed7a1695-c78c-4d74-887e-fabdf857b32a" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Services.Validation.Fluent.DomainDtoValidation</name>
+                  <display>TD.Domain.Services.Validation.Fluent.DomainDtoValidation</display>
+                  <externalReference>TD.Domain.Services.Validation.Fluent</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>0b46f7c7-087a-4a2c-9feb-4af96666ff3d</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="935bdeb4-70b4-4523-8a20-f71b7cfb07ac" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Entities.Filters.Validation.Fluent.EntityFilterValidation</name>
+                  <display>TD.Entities.Filters.Validation.Fluent.EntityFilterValidation</display>
+                  <externalReference>TD.Entities.Filters.Validation.Fluent</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>0b46f7c7-087a-4a2c-9feb-4af96666ff3d</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+            <childElement id="11040c4c-7857-49d9-908c-e99d16f6e07c" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Enums</name>
+              <display>Enums</display>
+              <externalReference>269502df-3489-4db8-b95b-dc3de3856be9</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>3</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>857dd775-0ce0-4ef3-b5fb-32f8372f4504</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements>
+                <childElement id="3a6d76c1-306e-4d25-99cf-4a91eed67183" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>Domain.Enum</name>
+                  <display>Domain.Enum</display>
+                  <externalReference>bc449746-930f-4c4e-a814-ee2a56b028e9</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>1</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>11040c4c-7857-49d9-908c-e99d16f6e07c</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="cb71de8e-f226-4c30-9eec-0d56fd15c138" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Domain.Entities.Enum</name>
+                  <display>TD.Domain.Entities.Enum</display>
+                  <externalReference>TD.Domain.Entities</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>11040c4c-7857-49d9-908c-e99d16f6e07c</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+            <childElement id="2267fe31-4974-47d9-b323-c7986b3e1248" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>ValueObjects</name>
+              <display>ValueObjects</display>
+              <externalReference>24d6d3d7-9c86-4947-8555-a1dbf6b2b549</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>4</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>857dd775-0ce0-4ef3-b5fb-32f8372f4504</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+        <childElement id="1996a699-4617-4b3a-8659-4aed6caa7b0c" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+          <name>Services</name>
+          <display>Services</display>
+          <externalReference>c8feb1cc-6f8f-47ea-af73-606b241b05be</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>6</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>8bc03e54-cc18-4dd4-9e5b-c1f3729ea232</parentFolderId>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+              <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+              <properties>
+                <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements>
+            <childElement id="426750fe-9ee1-4295-8874-2ea350d04129" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+              <name>Domain.Services</name>
+              <display>Domain.Services</display>
+              <externalReference>76801c7e-34c1-4d07-b059-05cff5b29cd6</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>1996a699-4617-4b3a-8659-4aed6caa7b0c</parentFolderId>
+              <stereotypes />
+              <metadata />
+              <childElements />
+            </childElement>
+            <childElement id="fc88cd5f-8c28-4735-bbde-7b7d65a1bda7" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+              <name>TD.Domain.Services.Services</name>
+              <display>TD.Domain.Services.Services</display>
+              <externalReference>TD.Domain.Services</externalReference>
+              <isAbstract>false</isAbstract>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>1996a699-4617-4b3a-8659-4aed6caa7b0c</parentFolderId>
+              <stereotypes />
+              <metadata>
+                <entry key="status" value="assigned" />
+              </metadata>
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+        <childElement id="e4321a92-a6ee-49f6-b3a3-354654760cb0" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+          <name>Utils</name>
+          <display>Utils</display>
+          <externalReference>14bc307a-3b23-48a2-b4b6-adb607bc2368</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>7</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>8bc03e54-cc18-4dd4-9e5b-c1f3729ea232</parentFolderId>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+              <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+              <properties>
+                <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements>
+            <childElement id="b3a3d9ec-1928-4d76-b0d5-421f85dcab1e" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+              <name>TD.Domain.Common.DateTime.DateTimeUtil</name>
+              <display>TD.Domain.Common.DateTime.DateTimeUtil</display>
+              <externalReference>TD.Domain.Common.DateTime</externalReference>
+              <isAbstract>false</isAbstract>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>e4321a92-a6ee-49f6-b3a3-354654760cb0</parentFolderId>
+              <stereotypes />
+              <metadata>
+                <entry key="status" value="assigned" />
+              </metadata>
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+        <childElement id="c86858f8-3f0d-4529-924b-70bb9dad1eec" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+          <name>Domain</name>
+          <display>Domain</display>
+          <externalReference>6f93ea1a-665c-4325-9635-bd1b86f5122e</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>8</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>8bc03e54-cc18-4dd4-9e5b-c1f3729ea232</parentFolderId>
+          <stereotypes />
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="8fb9777a-052b-4050-9309-f3e920706443" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+          <name>TD.Domain.DI.DomainDependencyInjection</name>
+          <display>TD.Domain.DI.DomainDependencyInjection</display>
+          <externalReference>TD.Domain.DI</externalReference>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>8bc03e54-cc18-4dd4-9e5b-c1f3729ea232</parentFolderId>
+          <stereotypes />
+          <metadata>
+            <entry key="status" value="assigned" />
+          </metadata>
+          <childElements />
+        </childElement>
+        <childElement id="3fdb9e51-8766-40a4-8446-5dee076a55da" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+          <name>TD.Entities.Audit.AuditInterface</name>
+          <display>TD.Entities.Audit.AuditInterface</display>
+          <externalReference>TD.Entities.Audit</externalReference>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>8bc03e54-cc18-4dd4-9e5b-c1f3729ea232</parentFolderId>
+          <stereotypes />
+          <metadata>
+            <entry key="status" value="assigned" />
+          </metadata>
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="86e58524-cb0f-4cda-b8e8-f6a2e619bab1" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>CoreReadme</name>
+      <display>CoreReadme</display>
+      <externalReference>e0c06cd7-2d10-41f9-b92e-b2e36c69f8bd</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>4</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>7339bab6-26bb-4ade-8dad-18ca0f3ef0b1</parentFolderId>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="a74e0a9a-097e-4dea-9cbf-26924766832c" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>DockerFile</name>
+      <display>DockerFile</display>
+      <externalReference>81f6ee7e-d6ad-4d70-9e00-118e18ed3cc8</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>5</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>7339bab6-26bb-4ade-8dad-18ca0f3ef0b1</parentFolderId>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="59b0d9bc-6023-40eb-983b-e892907a9b14" type="Solution Folder" typeId="0dc2b846-c968-49eb-99b7-8776919313a8">
+      <name>Infrastructure</name>
+      <display>Infrastructure</display>
+      <externalReference>ce91a232-5b81-4f2e-9382-cd7fbb91cfc9</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>6</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>7339bab6-26bb-4ade-8dad-18ca0f3ef0b1</parentFolderId>
+      <stereotypes />
+      <metadata />
+      <childElements>
+        <childElement id="eba4d068-342d-442e-ba90-95c818b73013" type="Class Library (.NET Core)" typeId="52B49DB5-3EA9-4095-B1A7-DF1AC22D7DAE">
+          <name>CoreApplicationFilterVal_10.Persistence</name>
+          <display>CoreApplicationFilterVal_10.Persistence</display>
+          <externalReference>97ad2d8a-4b71-4a51-93f1-f7fc203df305</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>59b0d9bc-6023-40eb-983b-e892907a9b14</parentFolderId>
+          <stereotypes>
+            <stereotype stereotypeDefinitionId="5d85edfb-490c-42c2-81ef-c57c0300eb5a" name=".NET Core Settings">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+              <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+              <properties>
+                <property name="4756bd10-23e2-473b-9957-d7083759cd42" display="Target Multiple Frameworks" value="false" isActive="true" />
+                <property name="ef3e7b17-ba1d-4818-82a2-5a8ad3875d40" display="Target Framework" value="16d99e3e-7b91-42f8-ae3b-2686edde94b7" isActive="true" />
+                <property name="5215b600-32fc-4a6d-af72-9eb88a6f30e7" display="Target Frameworks" value="" isActive="false" />
+                <property name="7bfda3d8-b249-488e-b7d4-315d5f2b25f4" display="Runtime Identifiers" isActive="true" />
+                <property name="bb694bf2-6758-492d-ae65-5a8626704786" display="Configurations" isActive="true" />
+                <property name="3710062e-9beb-40e2-8f33-111efecf43a5" display="Root Namespace" isActive="true" />
+                <property name="f2956d24-b6da-427b-8728-c4f44714ce69" display="User Secrets Id" isActive="true" />
+                <property name="42cdb74e-d5fd-4969-94ca-585d0527b862" display="Generate Runtime Configuration Files" isActive="true" />
+                <property name="6111c054-9a40-4f92-9f7c-3a8372af14b8" display="Generate Documentation File" isActive="true" />
+                <property name="f236ad27-a4ab-490a-92d4-b6faf2d1e033" display="Assembly Name" isActive="true" />
+              </properties>
+            </stereotype>
+            <stereotype stereotypeDefinitionId="d9b43864-0370-401b-9e71-b1d286919500" name="C# Project Options">
+              <addedByDefault>true</addedByDefault>
+              <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+              <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+              <properties>
+                <property name="cb56677d-e132-4397-b2ec-3f47e950a111" display="Language Version" value="default" isActive="true" />
+                <property name="5c953a82-78c4-4986-b204-df9fcbea5242" display="Relative Location" value="src/Infrastructure/CoreApplicationFilterVal_10.Persistence" isActive="true" />
+                <property name="415a5406-0517-4c0e-ab60-bc809a23c308" display="Nullable Enabled" value="false" isActive="true" />
+              </properties>
+            </stereotype>
+          </stereotypes>
+          <metadata />
+          <childElements>
+            <childElement id="5d57c5b8-2382-4699-8be4-2387ea92ecab" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Common</name>
+              <display>Common</display>
+              <externalReference>310210f2-a0de-4ed2-8cdd-85df5d811469</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>1</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>eba4d068-342d-442e-ba90-95c818b73013</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements>
+                <childElement id="8f33c85d-f7ae-4e5c-a6f9-42c3a541ce81" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>Repositories.Common</name>
+                  <display>Repositories.Common</display>
+                  <externalReference>2cb06c24-1219-42e7-8ce1-d7f4e069f6ca</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>1</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>5d57c5b8-2382-4699-8be4-2387ea92ecab</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="4849cd15-6593-4f66-b073-ba1ff22a2991" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Repositories.EF.ReadOnlyRepository</name>
+                  <display>TD.Repositories.EF.ReadOnlyRepository</display>
+                  <externalReference>TD.Repositories.EF</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>5d57c5b8-2382-4699-8be4-2387ea92ecab</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="054eeac5-5d1f-459c-92ca-11aa53da95ac" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Repositories.EF.ReadWriteRepository</name>
+                  <display>TD.Repositories.EF.ReadWriteRepository</display>
+                  <externalReference>TD.Repositories.EF</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>5d57c5b8-2382-4699-8be4-2387ea92ecab</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+            <childElement id="9918b51f-3fa5-4fba-8e22-73f5e80fb37f" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Configurations</name>
+              <display>Configurations</display>
+              <externalReference>bcd82787-fe48-46e8-8b08-20da64d7188a</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>2</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>eba4d068-342d-442e-ba90-95c818b73013</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements />
+            </childElement>
+            <childElement id="c464ee07-8eaf-4603-9a42-997943200cc9" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Repositories</name>
+              <display>Repositories</display>
+              <externalReference>f25631a9-2592-45eb-8eaf-cd10b17670aa</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>3</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>eba4d068-342d-442e-ba90-95c818b73013</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements>
+                <childElement id="819f8201-e65a-486d-a769-5e1f050edfd9" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>Repositories</name>
+                  <display>Repositories</display>
+                  <externalReference>68ab4115-3aa4-44c8-8dbb-9dcca7faeda4</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>1</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>c464ee07-8eaf-4603-9a42-997943200cc9</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+                <childElement id="d1662cb8-41e2-4ba9-9915-dc633554be0a" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Repositories.EF.ReadOnlyRepositories</name>
+                  <display>TD.Repositories.EF.ReadOnlyRepositories</display>
+                  <externalReference>TD.Repositories.EF</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>c464ee07-8eaf-4603-9a42-997943200cc9</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+                <childElement id="9fba2be5-5af5-41e6-9234-1de65d2bdf2a" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+                  <name>TD.Repositories.EF.ReadWriteRepositories</name>
+                  <display>TD.Repositories.EF.ReadWriteRepositories</display>
+                  <externalReference>TD.Repositories.EF</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>c464ee07-8eaf-4603-9a42-997943200cc9</parentFolderId>
+                  <stereotypes />
+                  <metadata>
+                    <entry key="status" value="assigned" />
+                  </metadata>
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+            <childElement id="ca3f6a36-5dc3-4546-aea8-8b2269425e7d" type="Folder" typeId="3407a825-1331-4f3f-89a4-901903ed97ce">
+              <name>Settings</name>
+              <display>Settings</display>
+              <externalReference>1fa550f4-8c1d-4e5b-b1c7-8dcd51a50f0e</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>4</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>eba4d068-342d-442e-ba90-95c818b73013</parentFolderId>
+              <stereotypes>
+                <stereotype stereotypeDefinitionId="61132551-825d-4c6e-b9f1-0f95249d08d4" name="Folder Options">
+                  <addedByDefault>true</addedByDefault>
+                  <definitionPackageName>Intent.VisualStudio.Projects</definitionPackageName>
+                  <definitionPackageId>a0636ab7-d3a1-430b-9609-11a18aa3cc7f</definitionPackageId>
+                  <properties>
+                    <property name="4bfbefd0-d22e-4ca0-9723-92ae273feca4" display="Namespace Provider" value="true" isActive="true" />
+                  </properties>
+                </stereotype>
+              </stereotypes>
+              <metadata />
+              <childElements>
+                <childElement id="72be85b6-0c4f-4e7f-b257-a01bebb347e0" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+                  <name>Persistence.Settings</name>
+                  <display>Persistence.Settings</display>
+                  <externalReference>1d2cfc3b-8d12-4251-8104-7f7d9f5301f5</externalReference>
+                  <isAbstract>false</isAbstract>
+                  <order>1</order>
+                  <genericTypes />
+                  <isMapped>false</isMapped>
+                  <parentFolderId>ca3f6a36-5dc3-4546-aea8-8b2269425e7d</parentFolderId>
+                  <stereotypes />
+                  <metadata />
+                  <childElements />
+                </childElement>
+              </childElements>
+            </childElement>
+            <childElement id="16a815e6-f527-4e75-88ca-08ada2eb7ad9" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+              <name>Infrastructure.Data</name>
+              <display>Infrastructure.Data</display>
+              <externalReference>f59076b5-f29e-440e-9a42-bf82574d3f6c</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>5</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>eba4d068-342d-442e-ba90-95c818b73013</parentFolderId>
+              <stereotypes />
+              <metadata />
+              <childElements />
+            </childElement>
+            <childElement id="99d0f247-ffd5-4988-a84e-752d41cf153a" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+              <name>Persistence</name>
+              <display>Persistence</display>
+              <externalReference>40d19dab-a06f-4444-b19e-252c66332eee</externalReference>
+              <isAbstract>false</isAbstract>
+              <order>6</order>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>eba4d068-342d-442e-ba90-95c818b73013</parentFolderId>
+              <stereotypes />
+              <metadata />
+              <childElements />
+            </childElement>
+            <childElement id="6060a0ba-cc49-4648-b821-571c03fedf02" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+              <name>TD.Persistence.DI.PersistenceDependencyInjection</name>
+              <display>TD.Persistence.DI.PersistenceDependencyInjection</display>
+              <externalReference>TD.Persistence.DI</externalReference>
+              <isAbstract>false</isAbstract>
+              <genericTypes />
+              <isMapped>false</isMapped>
+              <parentFolderId>eba4d068-342d-442e-ba90-95c818b73013</parentFolderId>
+              <stereotypes />
+              <metadata>
+                <entry key="status" value="assigned" />
+              </metadata>
+              <childElements />
+            </childElement>
+          </childElements>
+        </childElement>
+      </childElements>
+    </childElement>
+    <childElement id="fbe7cd0f-7e19-4a3a-b23b-84bb686f67bd" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>TD.Readme.CoreReadme</name>
+      <display>TD.Readme.CoreReadme</display>
+      <externalReference>TD.Readme</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>7339bab6-26bb-4ade-8dad-18ca0f3ef0b1</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

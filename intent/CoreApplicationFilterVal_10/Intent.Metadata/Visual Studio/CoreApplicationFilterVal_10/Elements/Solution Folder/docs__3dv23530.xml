@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="10a06631-3ec1-492d-b3f5-8a6d22aab3dc" type="Solution Folder" typeId="0dc2b846-c968-49eb-99b7-8776919313a8">
+  <name>docs</name>
+  <display>docs</display>
+  <externalReference>6af6fd7a-063f-452e-9e0c-ab1ba9e9a739</externalReference>
+  <isAbstract>false</isAbstract>
+  <order>2</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>05886b5e-7c91-4f80-9e01-5963238ab5db</parentFolderId>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="a6fdbd97-a0f1-4446-a359-ecb8be6440de" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>ConfigurationReadme</name>
+      <display>ConfigurationReadme</display>
+      <externalReference>7c192c90-1f15-49eb-968d-cff0bf69f7e2</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>10a06631-3ec1-492d-b3f5-8a6d22aab3dc</parentFolderId>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="1b59b4d1-629a-4c8a-b0b8-f0e019cec764" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>IntroductionReadme</name>
+      <display>IntroductionReadme</display>
+      <externalReference>322647c5-4fe9-415d-95d5-9218b4899432</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>2</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>10a06631-3ec1-492d-b3f5-8a6d22aab3dc</parentFolderId>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="614f4793-598c-428e-aaba-8c94d7c1066c" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+      <name>MigrationReadme</name>
+      <display>MigrationReadme</display>
+      <externalReference>ae8ca672-79ee-4930-ae0d-cea27c8ed375</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>3</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>10a06631-3ec1-492d-b3f5-8a6d22aab3dc</parentFolderId>
+      <stereotypes />
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="be960a1f-c9b2-4e1b-a3d3-206c62e8596e" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>TD.Readme.Configuration</name>
+      <display>TD.Readme.Configuration</display>
+      <externalReference>TD.Readme</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>10a06631-3ec1-492d-b3f5-8a6d22aab3dc</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="43aee0b4-d848-4c65-a87e-7b6773ca3ea9" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>TD.Readme.Introduction</name>
+      <display>TD.Readme.Introduction</display>
+      <externalReference>TD.Readme</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>10a06631-3ec1-492d-b3f5-8a6d22aab3dc</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+    <childElement id="25511eca-4de7-4fec-980b-d8d36d0753cc" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+      <name>TD.Readme.Migration</name>
+      <display>TD.Readme.Migration</display>
+      <externalReference>TD.Readme</externalReference>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>10a06631-3ec1-492d-b3f5-8a6d22aab3dc</parentFolderId>
+      <stereotypes />
+      <metadata>
+        <entry key="status" value="assigned" />
+      </metadata>
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

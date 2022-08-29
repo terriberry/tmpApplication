@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="88bc3eaa-6139-4007-aa48-f73a68e58cc2" type="Domain DTO" typeId="b183a591-5050-4724-a0eb-7b865e3f5715">
+  <name>OwnerDTO</name>
+  <display>OwnerDTO</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>true</isMapped>
+  <mappedClass>
+    <applicationId>8ec8d332-b6aa-4f0b-9f27-3561ece9c97d</applicationId>
+    <metadataId>6ab29b31-27af-4f56-a67c-986d82097d63</metadataId>
+    <mappingSettingsId>2235a9c5-cefc-4517-86a8-cad047c01186</mappingSettingsId>
+    <autoSyncTypeReference>true</autoSyncTypeReference>
+    <mappedPath>
+      <target id="6a7d8cf9-ef07-4777-b814-9cb20b5f2339" name="Owner" type="element" specialization="Class" />
+    </mappedPath>
+  </mappedClass>
+  <parentFolderId>6087d02c-8e8f-4701-823e-eb25ffbc46d2</parentFolderId>
+  <packageId>b6ef4af8-1b42-4d9d-b7e0-6bb74e480bbc</packageId>
+  <packageName>Domain Services</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="a432703f-7b74-4f98-83c5-4d1673ac7931" name="DTO Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>TD.Domain.Services</definitionPackageName>
+      <definitionPackageId>a7e94752-4413-4e9a-91ce-194e87f3714e</definitionPackageId>
+      <properties>
+        <property name="1358cb3b-a027-4a7c-b1fb-d3b9ce4e375c" display="Generate Validator" value="true" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="6bff0881-0429-4779-a9a3-cac47d8831e6" type="DTO-Field" typeId="09272fbb-89a0-42c7-ae8e-289557ef569b">
+      <name>Name</name>
+      <display>Name: string</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="3586fa15-32ab-431a-8eaf-cdb9868d9561">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappingSettingsId>2235a9c5-cefc-4517-86a8-cad047c01186</mappingSettingsId>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
+        <mappedPath>
+          <target id="e7144392-0ab9-4b05-b90f-ed57deda58e0" name="Name" type="element" specialization="Attribute" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>88bc3eaa-6139-4007-aa48-f73a68e58cc2</parentFolderId>
+      <packageId>b6ef4af8-1b42-4d9d-b7e0-6bb74e480bbc</packageId>
+      <packageName>Domain Services</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="9c385926-72ea-47bd-9b3b-58a140f4a8e6" name="Field Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>TD.Domain.Services</definitionPackageName>
+          <definitionPackageId>a7e94752-4413-4e9a-91ce-194e87f3714e</definitionPackageId>
+          <properties>
+            <property name="b058d5fc-6e1e-4d24-82e9-ec7b5bf86cbb" display="Required" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+        <stereotype stereotypeDefinitionId="762f9268-f8cc-42a5-b00d-51dda62c347c" name="Validation">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>TD.Services.Validation.Fluent</definitionPackageName>
+          <definitionPackageId>495cd62a-d3dd-4b3b-bacb-4d862ea8c16d</definitionPackageId>
+          <properties>
+            <property name="b375cea5-2932-469f-bfb7-ca4a53177dd0" display="Not Empty" value="false" isActive="true" />
+            <property name="578d4f01-f550-4a5c-a4d9-8bf8dce5daf5" display="Max Length" isActive="true" />
+            <property name="43f4098d-8ec7-4551-8766-227f5d0e056d" display="Has Custom Validation" value="false" isActive="true" />
+            <property name="e0571f4b-fdea-41e3-9ba2-fae3d4fa5016" display="Min" isActive="false" />
+            <property name="4637fe34-a337-4e96-8a9c-c833f8afc32a" display="Max" isActive="false" />
+            <property name="bee6c586-9ea3-484b-848d-4577f9f18c75" display="No Special Characters" value="false" isActive="true" />
+            <property name="b3defdd8-61ff-41a2-913c-c9ba7f4b0b29" display="No Numbers" value="false" isActive="true" />
+            <property name="23734023-47b9-43e2-a9d3-79b3668f9e78" display="Min Date" isActive="false" />
+            <property name="12ba304c-55af-46a9-9db6-c629002b2411" display="Max Date" isActive="false" />
+            <property name="07729e8e-6df9-41f0-97ee-2c1c6b6d7811" display="Date In The Past" value="false" isActive="false" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="6fce29a5-de36-498f-9605-12b93d7853be" type="DTO-Field" typeId="09272fbb-89a0-42c7-ae8e-289557ef569b">
+      <name>Age</name>
+      <display>Age: int</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="b540d23b-6980-4064-adee-38434a3502a8">
+        <typeId>fb0a362d-e9e2-40de-b6ff-5ce8167cbe74</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>true</isMapped>
+      <mappedClass>
+        <mappingSettingsId>2235a9c5-cefc-4517-86a8-cad047c01186</mappingSettingsId>
+        <autoSyncTypeReference>true</autoSyncTypeReference>
+        <mappedPath>
+          <target id="dd8d588f-c434-40a0-a563-223ae2a415db" name="Age" type="element" specialization="Attribute" />
+        </mappedPath>
+      </mappedClass>
+      <parentFolderId>88bc3eaa-6139-4007-aa48-f73a68e58cc2</parentFolderId>
+      <packageId>b6ef4af8-1b42-4d9d-b7e0-6bb74e480bbc</packageId>
+      <packageName>Domain Services</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="9c385926-72ea-47bd-9b3b-58a140f4a8e6" name="Field Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>TD.Domain.Services</definitionPackageName>
+          <definitionPackageId>a7e94752-4413-4e9a-91ce-194e87f3714e</definitionPackageId>
+          <properties>
+            <property name="b058d5fc-6e1e-4d24-82e9-ec7b5bf86cbb" display="Required" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+        <stereotype stereotypeDefinitionId="762f9268-f8cc-42a5-b00d-51dda62c347c" name="Validation">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>TD.Services.Validation.Fluent</definitionPackageName>
+          <definitionPackageId>495cd62a-d3dd-4b3b-bacb-4d862ea8c16d</definitionPackageId>
+          <properties>
+            <property name="b375cea5-2932-469f-bfb7-ca4a53177dd0" display="Not Empty" value="false" isActive="false" />
+            <property name="578d4f01-f550-4a5c-a4d9-8bf8dce5daf5" display="Max Length" isActive="false" />
+            <property name="43f4098d-8ec7-4551-8766-227f5d0e056d" display="Has Custom Validation" value="false" isActive="true" />
+            <property name="e0571f4b-fdea-41e3-9ba2-fae3d4fa5016" display="Min" isActive="true" />
+            <property name="4637fe34-a337-4e96-8a9c-c833f8afc32a" display="Max" isActive="true" />
+            <property name="bee6c586-9ea3-484b-848d-4577f9f18c75" display="No Special Characters" value="false" isActive="false" />
+            <property name="b3defdd8-61ff-41a2-913c-c9ba7f4b0b29" display="No Numbers" value="false" isActive="false" />
+            <property name="23734023-47b9-43e2-a9d3-79b3668f9e78" display="Min Date" isActive="false" />
+            <property name="12ba304c-55af-46a9-9db6-c629002b2411" display="Max Date" isActive="false" />
+            <property name="07729e8e-6df9-41f0-97ee-2c1c6b6d7811" display="Date In The Past" value="false" isActive="false" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

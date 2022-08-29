@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "mgZGDEXH/NElSFnUm08Inwb/aUYJvUHrdJJUarV+qSL1S16eBxufH3JIHTnZ+12mbDQYipw7RrqNSfSkXxuvcQ==",
+  "success": true,
+  "projectFilePath": "/Users/terrilee/source/repos/CoreApplicationFilterVal_10/CoreApplicationFilterVal_10/src/CoreApplicationFilterVal_10.Domain/CoreApplicationFilterVal_10.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/terrilee/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/Users/terrilee/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "/Users/terrilee/.nuget/packages/fluentvalidation/9.3.0/fluentvalidation.9.3.0.nupkg.sha512",
+    "/Users/terrilee/.nuget/packages/fluentvalidation.dependencyinjectionextensions/9.3.0/fluentvalidation.dependencyinjectionextensions.9.3.0.nupkg.sha512",
+    "/Users/terrilee/.nuget/packages/intent.roslynweaver.attributes/2.0.1/intent.roslynweaver.attributes.2.0.1.nupkg.sha512",
+    "/Users/terrilee/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/terrilee/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "/Users/terrilee/.nuget/packages/microsoft.extensions.configuration.binder/6.0.0/microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
+    "/Users/terrilee/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/terrilee/.nuget/packages/microsoft.extensions.dependencymodel/6.0.0/microsoft.extensions.dependencymodel.6.0.0.nupkg.sha512",
+    "/Users/terrilee/.nuget/packages/microsoft.extensions.options/3.0.0/microsoft.extensions.options.3.0.0.nupkg.sha512",
+    "/Users/terrilee/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/terrilee/.nuget/packages/scrutor/4.2.0/scrutor.4.2.0.nupkg.sha512",
+    "/Users/terrilee/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/Users/terrilee/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/terrilee/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
+    "/Users/terrilee/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/terrilee/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
+    "/Users/terrilee/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

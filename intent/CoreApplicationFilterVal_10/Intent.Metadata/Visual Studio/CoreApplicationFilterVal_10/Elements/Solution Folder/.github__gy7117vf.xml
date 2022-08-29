@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="0ba735d8-738c-4b24-bcaa-be826ab797b7" type="Solution Folder" typeId="0dc2b846-c968-49eb-99b7-8776919313a8">
+  <name>.github</name>
+  <display>.github</display>
+  <externalReference>d42e117a-f466-4685-94f1-3b9b849ce6e0</externalReference>
+  <isAbstract>false</isAbstract>
+  <order>1</order>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>05886b5e-7c91-4f80-9e01-5963238ab5db</parentFolderId>
+  <stereotypes />
+  <metadata />
+  <childElements>
+    <childElement id="010f789c-045e-4b9a-a65b-32e5dd8c6d52" type="Solution Folder" typeId="0dc2b846-c968-49eb-99b7-8776919313a8">
+      <name>workflows</name>
+      <display>workflows</display>
+      <externalReference>de696028-40e7-4f14-a795-cc9b4632c5ed</externalReference>
+      <isAbstract>false</isAbstract>
+      <order>1</order>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>0ba735d8-738c-4b24-bcaa-be826ab797b7</parentFolderId>
+      <stereotypes />
+      <metadata />
+      <childElements>
+        <childElement id="d4da13d4-fb7d-4e82-924f-eed2445f621c" type="Role" typeId="025e933b-b602-4b6d-95ab-0ec36ae940da">
+          <name>GitHubActions</name>
+          <display>GitHubActions</display>
+          <externalReference>5cb3a4d5-b217-466e-98c4-3c0e7cd0182e</externalReference>
+          <isAbstract>false</isAbstract>
+          <order>1</order>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>010f789c-045e-4b9a-a65b-32e5dd8c6d52</parentFolderId>
+          <stereotypes />
+          <metadata />
+          <childElements />
+        </childElement>
+        <childElement id="8f764e1d-8e4c-4939-89c4-4189fe2a6a15" type="Template Output" typeId="d421c322-7a51-4094-89fa-e5d8a0a97b27">
+          <name>TD.GitHubActions.Tests.Unit.run-unit-tests</name>
+          <display>TD.GitHubActions.Tests.Unit.run-unit-tests</display>
+          <externalReference>TD.GitHubActions.Tests.Unit</externalReference>
+          <isAbstract>false</isAbstract>
+          <genericTypes />
+          <isMapped>false</isMapped>
+          <parentFolderId>010f789c-045e-4b9a-a65b-32e5dd8c6d52</parentFolderId>
+          <stereotypes />
+          <metadata>
+            <entry key="status" value="assigned" />
+          </metadata>
+          <childElements />
+        </childElement>
+      </childElements>
+    </childElement>
+  </childElements>
+</class>

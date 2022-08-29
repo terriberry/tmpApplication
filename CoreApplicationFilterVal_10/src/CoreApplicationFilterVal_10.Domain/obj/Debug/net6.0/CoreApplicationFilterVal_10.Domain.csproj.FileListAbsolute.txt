@@ -1,0 +1,12 @@
+/Users/terrilee/source/repos/CoreApplicationFilterVal_10/CoreApplicationFilterVal_10/src/CoreApplicationFilterVal_10.Domain/bin/Debug/net6.0/CoreApplicationFilterVal_10.Domain.deps.json
+/Users/terrilee/source/repos/CoreApplicationFilterVal_10/CoreApplicationFilterVal_10/src/CoreApplicationFilterVal_10.Domain/bin/Debug/net6.0/CoreApplicationFilterVal_10.Domain.dll
+/Users/terrilee/source/repos/CoreApplicationFilterVal_10/CoreApplicationFilterVal_10/src/CoreApplicationFilterVal_10.Domain/bin/Debug/net6.0/CoreApplicationFilterVal_10.Domain.pdb
+/Users/terrilee/source/repos/CoreApplicationFilterVal_10/CoreApplicationFilterVal_10/src/CoreApplicationFilterVal_10.Domain/obj/Debug/net6.0/CoreApplicationFilterVal_10.Domain.csproj.AssemblyReference.cache
+/Users/terrilee/source/repos/CoreApplicationFilterVal_10/CoreApplicationFilterVal_10/src/CoreApplicationFilterVal_10.Domain/obj/Debug/net6.0/CoreApplicationFilterVal_10.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/terrilee/source/repos/CoreApplicationFilterVal_10/CoreApplicationFilterVal_10/src/CoreApplicationFilterVal_10.Domain/obj/Debug/net6.0/CoreApplicationFilterVal_10.Domain.AssemblyInfoInputs.cache
+/Users/terrilee/source/repos/CoreApplicationFilterVal_10/CoreApplicationFilterVal_10/src/CoreApplicationFilterVal_10.Domain/obj/Debug/net6.0/CoreApplicationFilterVal_10.Domain.AssemblyInfo.cs
+/Users/terrilee/source/repos/CoreApplicationFilterVal_10/CoreApplicationFilterVal_10/src/CoreApplicationFilterVal_10.Domain/obj/Debug/net6.0/CoreApplicationFilterVal_10.Domain.csproj.CoreCompileInputs.cache
+/Users/terrilee/source/repos/CoreApplicationFilterVal_10/CoreApplicationFilterVal_10/src/CoreApplicationFilterVal_10.Domain/obj/Debug/net6.0/CoreApplicationFilterVal_10.Domain.dll
+/Users/terrilee/source/repos/CoreApplicationFilterVal_10/CoreApplicationFilterVal_10/src/CoreApplicationFilterVal_10.Domain/obj/Debug/net6.0/refint/CoreApplicationFilterVal_10.Domain.dll
+/Users/terrilee/source/repos/CoreApplicationFilterVal_10/CoreApplicationFilterVal_10/src/CoreApplicationFilterVal_10.Domain/obj/Debug/net6.0/CoreApplicationFilterVal_10.Domain.pdb
+/Users/terrilee/source/repos/CoreApplicationFilterVal_10/CoreApplicationFilterVal_10/src/CoreApplicationFilterVal_10.Domain/obj/Debug/net6.0/ref/CoreApplicationFilterVal_10.Domain.dll
